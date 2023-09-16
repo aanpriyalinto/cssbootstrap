@@ -1,0 +1,115 @@
+*{ 
+margin:0;
+padding:0;
+}
+body{
+    background-image: url("images/img.JPG");
+    background-size: cover;
+}
+header{
+    background-color: black;
+    height: 60px;
+}
+.navigation{
+    float:right;
+    margin-top: 20px;
+    margin-right: 50px;
+    
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    margin: 5px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navigation a:hover{
+    background-color: aqua;
+    color:black;
+}
+#logo{
+    margin-left: 50px;
+    margin-top: 1%;
+    margin-left: 50px;
+    width: 50px;
+    height: 30px;
+}/*navbar styling end*/
+/*aside styling start*/
+.side{
+    color:azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 100px;
+     width: 50%;
+    float: left;
+}
+    .side li{
+        padding: 2px;
+    }
+/*aside styling end*/
+.side li{
+    padding: 2px;
+    list-style: circle;
+}/*login styling start*/
+.my_login{
+    border: 2px solid white;
+    float: right;
+    margin-top: 50px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    background-color: blanchedalmond;
+    height: 15em;
+    padding:30px;
+}
+ .my_login h2{
+    text-align: center;
+ }
+ #login
+ {
+    background-color:dodgerblue ;
+    width: 100%;
+    border: none;
+    color:white;
+    height: 1.5em;
+ }
+/*login styling end*/
+.p-box{
+    border: 2px solid red;
+    background-color: blanchedalmond;
+    color: rgb(6, 27, 27);
+    width: 20%;
+    float: left;
+    margin-left: 30px;
+    padding: 5px;
+    height: 10em;
+    margin-right: 314px;
+   margin: top 40px;;
+   
+}
+.b-box{
+    border: 2px solid red;
+    background-color: blanchedalmond;
+    color: rgb(6, 27, 27);
+    width: 30%;
+    float: left;
+    margin-left: 330px;
+    padding: 5px;
+    height: 10em;
+    margin-right: 314px;
+   margin-top: 40px;}
+
+.f-box{
+border: 2px solid red;
+background-color: blanchedalmond;
+color: rgb(6, 27, 27);
+width: 25%;
+float: left;
+margin-left: 330px;
+padding: 5px;
+height: 10em;
+margin-right: 314px;
+margin-top: 40px;}
+
+
+
+
